@@ -1,6 +1,7 @@
-def plus(x, y):
-    print(x + y)
+def plusminus(x, y):
+    print("(+)", x + y,
+          "(-)", x - y)
 
 
 if __name__ == '__main__':
-    plus(3, 7)
+    plusminus(3, 7)
