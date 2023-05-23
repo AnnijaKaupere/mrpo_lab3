@@ -4,4 +4,6 @@ def plusminus(x, y):
 
 
 if __name__ == '__main__':
-    plusminus(3, 7)
+    a = int(input())
+    b = int(input())
+    plusminus(a, b)
